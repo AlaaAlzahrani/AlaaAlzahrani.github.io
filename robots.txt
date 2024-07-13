@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://AlaaAlzahrani.github.io/al-folio/sitemap.xml
+Sitemap: https://alaaalzahrani.github.io/sitemap.xml
