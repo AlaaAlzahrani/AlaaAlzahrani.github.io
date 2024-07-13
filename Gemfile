@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
+
+ruby '3.3.4'
+gem 'observer'
+
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    gem 'jekyll'
+    gem 'jekyll', '~> 4.2.0' # modified
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
@@ -18,10 +22,11 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
+    gem 'mini_racer', '~> 0.2.4' # modified
     gem 'unicode_utils'
     gem 'webrick'
     gem 'rexml'  # Added
-    gem 'strscan'# Added
+    gem 'strscan', '>= 3.0.9' # Added
 end
 group :other_plugins do
     gem 'css_parser'
