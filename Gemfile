@@ -1,8 +1,4 @@
 source 'https://rubygems.org'
-
-ruby '3.3.0'
-gem 'observer'
-
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll', '~> 4.2.0' # modified
