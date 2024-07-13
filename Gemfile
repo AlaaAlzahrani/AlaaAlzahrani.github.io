@@ -1,6 +1,4 @@
 source 'https://rubygems.org'
-ruby '3.2.2'
-
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
@@ -20,9 +18,10 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'rexml'  # Added
+    gem 'strscan', '>= 3.0.9'  # Added
 end
 group :other_plugins do
     gem 'css_parser'
