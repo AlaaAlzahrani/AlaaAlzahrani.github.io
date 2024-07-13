@@ -21,7 +21,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'rexml'  # Added
-    gem 'strscan', '>= 3.0.9'  # Added
+    gem 'strscan'# Added
 end
 group :other_plugins do
     gem 'css_parser'
